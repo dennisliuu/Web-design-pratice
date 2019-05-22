@@ -1,0 +1,77 @@
+// Color schema
+$color-blue: #B6C3C9;
+$color-white: #FAFBFB;
+$color-black: #0f1743;
+$color-purple: #76638A;
+$color-black-lighter: #202339;
+$color-skin: #E6B7A7;
+
+.mb-0-3 {
+  margin-bottom: -0.3em;
+}
+
+.ml-0-5 {
+  margin-left: 0.5em;
+}
+
+.mr-5 {
+  margin-right: 5em;
+}
+
+.bg-dark {
+  background-color: $color-black;
+}
+
+.rotate_90 {
+  transform: rotate(90deg);
+}
+
+.rotate_-90 {
+  transform: rotate(-90deg);
+  transform-origin: left top 0;
+}
+
+.logo {
+  padding: 10px 30px;
+  position: fixed;
+  left: 100px;
+  top: 22vh;
+  color: $color-black-lighter;
+}
+
+.social {
+  padding: 10px 30px;
+  position: fixed;
+  left: 100px;
+  top: 70vh;
+  font-size: 0.7em;
+}
+
+.App-logo {
+  height: 1.2em;
+  pointer-events: none;
+}
+
+// .App-header {
+//   background-color: $color-skin;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+//   color: white;
+// }
+
+// .App-link {
+//   color: #61dafb;
+// }
+
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }

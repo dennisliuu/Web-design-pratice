@@ -37,8 +37,7 @@ function Tables() {
         </tbody>
       </table>
       <div className="row">
-        <h6>*Round trip including all taxes, fees and carries charges.</h6>
-        <h6 className="u-pull-right">See all -></h6>
+        <p>*Round trip including all taxes, fees and carries charges.<p className="u-pull-right">See all</p></p>
       </div>
     </div>
   );

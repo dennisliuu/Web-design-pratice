@@ -3,6 +3,7 @@ import safari from './safari.svg';
 import './App.scss';
 import Dashboard from './Dashboard';
 import Tables from './Tables';
+import Checkin from './Checkin';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <div className="row">
           <div className="five columns">
             <Dashboard />
+            <Checkin />
           </div>
           <div className="seven columns">
             <div className="u-pull-right mt-3 mr-3">

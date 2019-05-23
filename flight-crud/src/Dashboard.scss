@@ -1,0 +1,20 @@
+$color-blue-darker: #40508B;
+.bg-color-blue-darker {background-color: $color-blue-darker !important; }
+$color-blue-lighter: #516293;
+.bg-color-blue-lighter {background-color: $color-blue-lighter !important; }
+$color-white: #FAFBFB;
+$color-purple: #76638A;
+
+.tabs {
+    color: $color-white;
+    margin: 0 !important;
+    margin: auto;
+}
+
+.dashboard {
+    height: 60vh;
+    border-radius: 0 0 35px 35px;
+    color: $color-white;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    font-weight: 600;
+}

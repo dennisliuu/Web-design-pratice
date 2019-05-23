@@ -1,12 +1,13 @@
 import React from 'react';
 import './Dashboard.scss';
 import './App.scss'
+import plane from './svg/plane.svg'
 
 function Dashboard() {
   return (
     <div>
         <div className="row mr-0">
-            <div className="four columns bg-color-blue-darker u-pull-left p-1-5 tabs">Fight</div>
+            <div className="four columns bg-color-blue-darker u-pull-left p-1-5 tabs"><img src={plane} className="icons mr-1" />Fight</div>
             <div className="four columns bg-color-blue-lighter u-pull-left p-1-5 tabs">Hotel</div>
             <div className="four columns bg-color-blue-lighter u-pull-left p-1-5 tabs">Rental car</div>
         </div>

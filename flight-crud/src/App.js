@@ -1,5 +1,5 @@
 import React from 'react';
-import safari from './safari.svg';
+import safari from './svg/safari.svg';
 import './App.scss';
 import Dashboard from './Dashboard';
 import Tables from './Tables';

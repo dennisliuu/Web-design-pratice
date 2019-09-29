@@ -17,6 +17,9 @@ function Dashboard() {
                 <button className="mr-3">One-way</button>
                 <button className="">Multi-City</button>
             </div>
+            <div class="row p-1-5">
+                <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput"></input>
+            </div>
         </div>
     </div>
   );

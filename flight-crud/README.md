@@ -2,7 +2,7 @@ This project was create for practice full-stack learning.
 
 This project contains following functions:
 
-1. Create: Book a hotel room and car.
+1. Create: Buy ticket.
 2. Read: Read flights and filter them.
 3. Update: Check-in the hotel.
 4. Delete: Cancel your booking.

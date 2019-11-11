@@ -21,10 +21,7 @@
                   placeholder="Enter your nickname"
                 ></b-form-input>
               </b-form-group>
-              <b-button
-                type="submit"
-                class="btn btn-block btn-lg btn-accent text-white py-3"
-              >進入聊天</b-button>
+              <b-button type="submit" class="btn btn-block btn-lg btn-accent text-white py-3">進入聊天</b-button>
             </b-form>
           </div>
         </div>

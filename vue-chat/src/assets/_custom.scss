@@ -1,4 +1,5 @@
 .bg-primary { background: #30402F !important; }
+.text-primary {color: #30402F !important;}
 .bg-primary-lighter {background: #BCD0B3 !important; }
 .btn-accent {
     color: #212529;
@@ -11,3 +12,8 @@
     background-color: darken(#D58568, 15%);
     border-color: darken(#D58568, 15%);
 };
+
+.list-group-item {
+    background-color: transparent !important;
+    border: none !important;
+}

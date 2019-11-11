@@ -35,7 +35,7 @@
         <b-form @submit="onSubmit">
           <b-input-group>
               <b-form-input id="message" v-model.trim="data.message" placeholder="Enter your message"></b-form-input>
-              <b-button type="submit" variant="primary" :disabled="!data.message">Send</b-button>
+              <b-button type="submit" variant="outline-success" :disabled="!data.message">Send</b-button>
           </b-input-group>
         </b-form>
       </footer>
